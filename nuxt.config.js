@@ -2,6 +2,11 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
+  // Customize router (https://nuxtjs.org/api/configuration-router)
+  router: {
+    base: '/wiki-lab/',
+  },
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'wiki-lab',
